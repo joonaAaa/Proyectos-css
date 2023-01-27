@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  font-family: Verdana;
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/raul-angel-192qmJI9c28-unsplash.jpg);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 328px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.card-img {
+  width: 100%;
+  height: 120px;
+}
+.card-body {
+  display: flex;
+  border-bottom: 1px solid rgb(15, 94, 155);
+  flex-direction: column;
+  align-items: center;
+}
+.card-body-content {
+  border: 5px solid rgb(113, 140, 228);
+  border-radius: 50%;
+  background-color: rgb(119, 168, 220);
+  margin-top: -50px;
+  box-shadow: 0px -10px 20px rgb(62, 97, 154);
+}
+.card-body-content-img {
+  width: 140px;
+  padding: 23px;
+}
+.card-title {
+  font-weight: bold;
+}
+.card-title span {
+  color: rgb(113, 140, 228);
+}
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+  margin: 30px 0 30px 0;
+}
+.card-footer-poder {
+  text-align: center;
+}
+.card-footer-poder-img {
+  width: 35px;
+}
+.card-footer-poder-img2 {
+  width: 17px;
+}/*# sourceMappingURL=styles.css.map */
